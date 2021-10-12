@@ -37,8 +37,7 @@ python Core-tuning.py -a resnet50-ssl --gpu 0 -d cifar10 --test-batch 100 --eval
   
 
 ## 6. Results
-* Our model achieves the following performance:
-### [Image Classification on CIFAR-10]
+* Our model achieves the following performance on CIFAR-10:
 
 |       Methods       |  Top 1 Accuracy  |  
 | ------------------- | ---------------- | 
