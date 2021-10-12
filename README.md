@@ -8,16 +8,14 @@ The provided code is a version on the CIFAR-10 dataset.
 ```
 pip install -r requirements.txt
 ```
-
-## 2. Datasets
-* The dataset of CIFAR-10 can be downloaded by directly running our code.
-
-
-## 3. Pretrained models
-* We provide two checkpoints via Google Drive. Please download the two checkpoints from the anonymous link: http://dwz.win/aduH.
+## 2. Pretrained models
+* We provide two checkpoints via Google Drive. Please download the two checkpoints from the link: http://dwz.win/aduH.
 * One checkpoint is the pre-trained ResNet-50(1x) model, pre-trained by MoCo-v2 and provided by https://github.com/facebookresearch/moco. We name it pretrain_moco_v2.pkl, which is a necessity for training.
-* Another one is the ResNet-50 model fine-tuned by our proposed method, named Core-tuning-model.tar. From this checkpoint, reviewers can directly evaluate the end results without having to train afresh.
+* Another one is the ResNet-50 model fine-tuned by our proposed method, named Core-tuning-model.tar. From this checkpoint, users can directly evaluate the end results without having to train afresh.
 * Unzip the download zip file and move the checkpoint files to /code/checkpoint/.
+
+## 3. Datasets
+* The dataset of CIFAR-10 can be downloaded by directly running our code.
 
 
 ## 4. Training
