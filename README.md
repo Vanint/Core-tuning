@@ -1,7 +1,5 @@
 # Core-tuning
-This repository is the official implementation of Unleashing the Power of Contrastive Self-Supervised Visual Models via Contrast-Regularized Fine-Tuning.
-The provided code is a version on the CIFAR-10 dataset. 
-
+This repository is the official implementation of Unleashing the Power of Contrastive Self-Supervised Visual Models via Contrast-Regularized Fine-Tuning (NeurIPS 2021).
 
 ## 1. Requirements
 * To install requirements: 
