@@ -41,7 +41,7 @@ python Core-tuning.py -a resnet50-ssl --gpu 0 -d cifar10 --test-batch 100 --eval
 |      CE-tuning      |   94.70+/-0.39   | 
 |  Core-tuning (ours) |   97.31+/-0.10   | 
   
-* Visualizaiton of features learned by ResNet-18 on the CIFAR10 validation set.
+* Visualizaiton of the learned features on the CIFAR10 validation set:
 
 <p align="left">
 <img src="visualization.jpg" height=200>
