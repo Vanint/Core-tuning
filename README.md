@@ -40,7 +40,7 @@ python Core-tuning.py -a resnet50-ssl --gpu 0 -d cifar10 --test-batch 100 --eval
 * Our model achieves the following performance on CIFAR-10:
 
 |       Methods       |  Top 1 Accuracy  |  
-| ------------------- | ---------------- | 
+| :-----------------: | :--------------: | 
 |      CE-tuning      |   94.70+/-0.39   | 
 |  Core-tuning (ours) |   97.31+/-0.10   | 
   
