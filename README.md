@@ -45,4 +45,17 @@ python Core-tuning.py -a resnet50-ssl --gpu 0 -d cifar10 --test-batch 100 --eval
 |      CE-tuning      |   94.70+/-0.39   | 
 |  Core-tuning (ours) |   97.31+/-0.10   | 
   
-## 7. Citaitons  
+  
+## 7. Citaiton 
+If you find our work inspiring or use our codebase in your research, please cite our work.
+```
+@inproceedings{zhang2021unleashing,
+  title={Unleashing the Power of Contrastive Self-Supervised Visual Models via Contrast-Regularized Fine-Tuning},
+  author={Zhang, Yifan and Hooi, Bryan and Hu, Dapeng and Liang, Jian and Feng, Jiashi},
+  booktitle={Advances in Neural Information Processing Systems}, 
+  year={2021}
+}
+``` 
+
+## 7. Acknowledgements
+This project is developed based on [MoCo](https://github.com/facebookresearch/moco) and [SupContrast](https://github.com/HobbitLong/SupContrast). 
