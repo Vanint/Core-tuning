@@ -1,6 +1,13 @@
 # Core-tuning
 This repository is the official implementation of Unleashing the Power of Contrastive Self-Supervised Visual Models via Contrast-Regularized Fine-Tuning (NeurIPS 2021).
 
+The key contributions of this paper are threefold:
+*  To the best of our knowledge, we are among the first to look into the fine-tuning stage of CSL models, which is  an important yet under-explored question. To address this, we propose a novel Core-tuning method.
+*  We theoretically analyze the benefits of the supervised contrastive loss on representation learning and model optimization, revealing that it is beneficial to model fine-tuning. 
+*  Promising results on image classification and semantic segmentation verify the effectiveness of Core-tuning for improving the fine-tuning performance of CSL models. We also empirically find that Core-tuning benefits CSL models in terms of  domain generalization and adversarial robustness on downstream tasks.
+Considering the theoretical guarantee and empirical effectiveness of Core-tuning, we recommend using it as a standard baseline to fine-tune CSL models.
+
+The implementation is as follows.
 
 ## 1. Requirements
 * To install requirements: 
@@ -58,5 +65,5 @@ If you find our work inspiring or use our codebase in your research, please cite
 }
 ``` 
 
-## 7. Acknowledgements
+## 8. Acknowledgements
 This project is developed based on [MoCo](https://github.com/facebookresearch/moco) and [SupContrast](https://github.com/HobbitLong/SupContrast). 
