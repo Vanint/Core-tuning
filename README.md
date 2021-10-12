@@ -2,7 +2,7 @@
 This repository is the official implementation of Unleashing the Power of Contrastive Self-Supervised Visual Models via Contrast-Regularized Fine-Tuning (NeurIPS 2021).
 
 <p align="center">
-<img src="visualization.jpg" weight=200>
+<img src="visualization.jpg" height=250>
 </p>
 
 ## 1. Requirements
