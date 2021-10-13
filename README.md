@@ -33,7 +33,7 @@ python Core-tuning.py -a resnet50-ssl --gpu 0 -d cifar10 --eta_weight 0.1 --mixu
 
 
 ## 5. Evaluation
-* To evaluate my model on ImageNet, run:
+* To evaluate models, run:
 ```
 python Core-tuning.py -a resnet50-ssl --gpu 0 -d cifar10 --test-batch 100 --evaluate --checkpoint checkpoint/Core-tuning-model/ --resume checkpoint/Core-tuning-model/Core-tuning-model.tar
 ``` 
