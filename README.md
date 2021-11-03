@@ -19,8 +19,9 @@ pip install -r requirements.txt
 * One checkpoint is the pre-trained ResNet-50(1x) model, pre-trained by [MoCo-v2](https://github.com/facebookresearch/moco). We name it pretrain_moco_v2.pkl, which is a necessity for training.
 * Another one is the ResNet-50 model fine-tuned by our proposed method, named Core-tuning-model.tar. From this checkpoint, users can directly evaluate the end results without having to train afresh.
 * Unzip the download zip file and move the checkpoint files to /code/checkpoint/.
-* Note that the parameter name of the checkpoint (downloaded by yourself) should be adjusted to the same to the fine-tuning model. Otherwise, the pre-trained parameters cannot be loaded. For example, in Line 117:
+* Note that the parameter name of the checkpoint (downloaded by yourself) should be adjusted to the same to the fine-tuning model. Otherwise, the pre-trained parameters cannot be loaded. For example, change the Line 117 in Core-tuning.py to:
 ```
+checkpoint = torch.load(""./checkpoint/pretrain_moco_v2.pkl"")['model']
 self.extractor.load_state_dict({k.replace('module.encoder.',''):v for k,v in checkpoint.items()},strict=False) 
 ```
 
