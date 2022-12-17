@@ -1,5 +1,5 @@
 # Core-tuning
-This repository is the official implementation of ``Unleashing the Power of Contrastive Self-Supervised Visual Models via Contrast-Regularized Fine-Tuning" (NeurIPS 2021).
+This repository is the official implementation of "[Unleashing the Power of Contrastive Self-Supervised Visual Models via Contrast-Regularized Fine-Tuning](https://openreview.net/pdf?id=LY6qkvd71Td)" (NeurIPS 2021).
 
 The key contributions of this paper are threefold:
 *  To the best of our knowledge, we are among the first to look into the fine-tuning stage of contrastive self-supervised learning (CSL) models, which is  an important yet under-explored question. To address this, we propose a novel Core-tuning method.
